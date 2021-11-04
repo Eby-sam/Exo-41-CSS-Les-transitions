@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+}
+
+#container {
+    width: 100%;
+    height: 30rem;
+}
+
+#test {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition: background-color, width, height;
+    transition-duration: 6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+}
+
+#test:hover {
+    background-color: lightgrey;
+    width: 30rem;
+    height: 30rem;
+}
+
+#test2 {
+    width: 20rem;
+    height: 20rem;
+    font-size: 18px;
+    background-color: gray;
+    transition: width, height, background-color, font-size, color;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 250ms;
+}
+
+#test2:hover {
+    background-color: rgba(200, 0, 255, 0.5);
+    color: #ff0000;
+    font-size: 24px;
+    width: 35rem;
+    height: 30rem;
+
+}
